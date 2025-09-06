@@ -1,86 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backyard Whiskey Club</title>
+    <title>Whiskey Club - Premium Spirits & Community</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="heroImage">
-        <div class="heroLogo">
-            <img src="images/logoWhite.png" alt="logo">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-whiskey-glass"></i>
+                <span>Whiskey Club</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collection" class="nav-link">Collection</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#events" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-        <div class="heroText">
-            
-            <h1>Backyard Whiskey Club</h1>
-        </div>    
-    </div>
+    </nav>
 
-    <br>
-    <hr>
-    <br>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Premium Whiskey Collection</h1>
+            <p class="hero-subtitle">Discover the finest spirits from around the world in our exclusive whiskey club</p>
+            <div class="hero-buttons">
+                <a href="#collection" class="btn btn-primary">Explore Collection</a>
+                <a href="#events" class="btn btn-secondary">Join Events</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="whiskey-bottles">
+                <div class="bottle bottle-1"></div>
+                <div class="bottle bottle-2"></div>
+                <div class="bottle bottle-3"></div>
+            </div>
+        </div>
+    </section>
 
-   <h1>Hello</h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ducimus officiis quasi unde aut facilis suscipit asperiores, sunt, blanditiis ipsa nemo ea soluta, ullam qui quod quidem voluptatum earum.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Club</h2>
+                <p>Passionate about exceptional whiskey and the community it brings together</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2015, our whiskey club has grown from a small group of enthusiasts to a thriving community of over 500 members. We're dedicated to exploring the world's finest whiskeys, from rare single malts to premium bourbons.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Whiskeys</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Events</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <ul>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-    </ul>
-    <ol>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-    </ol>
+    <!-- Collection Section -->
+    <section id="collection" class="collection">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Collection</h2>
+                <p>Discover our curated selection of premium whiskeys</p>
+            </div>
+            <div class="collection-grid">
+                <div class="whiskey-card">
+                    <div class="card-image">
+                        <div class="bottle-placeholder">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Macallan 18</h3>
+                        <p class="whiskey-type">Single Malt Scotch</p>
+                        <p class="whiskey-description">Aged 18 years, this exceptional single malt offers rich flavors of dried fruit, spice, and oak.</p>
+                        <div class="card-footer">
+                            <span class="price">$450</span>
+                            <button class="btn btn-small">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="whiskey-card">
+                    <div class="card-image">
+                        <div class="bottle-placeholder">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pappy Van Winkle 15</h3>
+                        <p class="whiskey-type">Bourbon</p>
+                        <p class="whiskey-description">Highly sought-after bourbon with notes of vanilla, caramel, and oak from 15 years of aging.</p>
+                        <div class="card-footer">
+                            <span class="price">$1,200</span>
+                            <button class="btn btn-small">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="whiskey-card">
+                    <div class="card-image">
+                        <div class="bottle-placeholder">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Yamazaki 12</h3>
+                        <p class="whiskey-type">Japanese Whisky</p>
+                        <p class="whiskey-description">Smooth and elegant with hints of fruit, spice, and a subtle smokiness.</p>
+                        <div class="card-footer">
+                            <span class="price">$180</span>
+                            <button class="btn btn-small">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <h1>Heading One</h1>
-   <h2>Heading Two</h2>
-   <h3>Heading Three</h3>
-   <h4>Heading Four</h4>
-   <h5>Heading Five</h5>
-   
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <p>Join us for tastings, masterclasses, and exclusive events</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="month">Dec</span>
+                        <span class="day">15</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Holiday Whiskey Tasting</h3>
+                        <p class="event-time">7:00 PM - 9:00 PM</p>
+                        <p class="event-description">Join us for a special holiday tasting featuring winter-themed whiskeys and festive pairings.</p>
+                        <button class="btn btn-outline">RSVP</button>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="month">Jan</span>
+                        <span class="day">20</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Bourbon Masterclass</h3>
+                        <p class="event-time">6:30 PM - 8:30 PM</p>
+                        <p class="event-description">Learn about the art of bourbon making with our expert distiller guest speaker.</p>
+                        <button class="btn btn-outline">RSVP</button>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="month">Feb</span>
+                        <span class="day">10</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Japanese Whisky Night</h3>
+                        <p class="event-time">7:30 PM - 9:30 PM</p>
+                        <p class="event-description">Explore the delicate flavors and craftsmanship of premium Japanese whiskies.</p>
+                        <button class="btn btn-outline">RSVP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>email</th>
-            <th>Age</th>
-        </tr>
-    </thead>
-    <td>
-        <tr>
-            <td>Craig Teel</td>
-            <td>cteel@fugro.com</td>
-            <td>60</td>
-        </tr>
-    </td>
-   </table>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join Our Club</h2>
+                <p>Ready to become part of our whiskey community?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Whiskey Lane<br>Spirits City, SC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-WHISKEY</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@whiskeyclub.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your whiskey interests" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Join the Club</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-   <br><hr><br>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-whiskey-glass"></i>
+                        <span>Whiskey Club</span>
+                    </div>
+                    <p>Connecting whiskey enthusiasts through exceptional spirits and memorable experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Whiskey Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-   <form action="process.php" method="post">
-    <div>
-        <label>First Name</label>
-        <input type="text" name="firstName" placeholder="Enter First Name">
-    </div>
-    <br>
-<div>
-    <label>Last Name</label>
-    <input type="text" name="lastName">
-</div>
-    <br>
-    <div>
-        <label>Email</label>
-        <input type="email" name="email">
-    </div>
-    <br>
-
-   </form>
+    <script src="script.js"></script>
 </body>
 </html>
