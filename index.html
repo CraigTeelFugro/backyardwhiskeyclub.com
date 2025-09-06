@@ -1,86 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backyard Whiskey Club</title>
+    <title>Backyard Whiskey Club - Private Tasting Society</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="heroImage">
-        <div class="heroLogo">
-            <img src="images/logoWhite.png" alt="logo">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-whiskey-glass"></i>
+                <span>Backyard Whiskey Club</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#upcoming" class="nav-link">Next Tasting</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recaps" class="nav-link">Past Tastings</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-        <div class="heroText">
-            
-            <h1>Backyard Whiskey Club</h1>
-        </div>    
-    </div>
+    </nav>
 
-    <br>
-    <hr>
-    <br>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Backyard Whiskey Club</h1>
+            <p class="hero-subtitle">A private community of whiskey enthusiasts gathering quarterly for exceptional tastings</p>
+            <div class="hero-buttons">
+                <a href="#upcoming" class="btn btn-primary">Next Tasting</a>
+                <a href="#recaps" class="btn btn-secondary">Past Tastings</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="whiskey-bottles">
+                <div class="bottle bottle-1"></div>
+                <div class="bottle bottle-2"></div>
+                <div class="bottle bottle-3"></div>
+            </div>
+        </div>
+    </section>
 
-   <h1>Hello</h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ducimus officiis quasi unde aut facilis suscipit asperiores, sunt, blanditiis ipsa nemo ea soluta, ullam qui quod quidem voluptatum earum.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Private Club</h2>
+                <p>A close-knit community of whiskey enthusiasts gathering quarterly for exceptional tastings</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2018, the Backyard Whiskey Club began as a small group of friends sharing their passion for fine spirits. What started as casual backyard gatherings has evolved into a private community of 25 dedicated members who meet quarterly to explore the world's finest whiskeys in an intimate, educational setting.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">25</span>
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Whiskeys Tasted</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24</span>
+                            <span class="stat-label">Quarterly Tastings</span>
+                        </div>
+                    </div>
+                    <div class="club-values">
+                        <h4>Our Values</h4>
+                        <ul>
+                            <li><strong>Quality over Quantity:</strong> We focus on exceptional whiskeys and meaningful conversations</li>
+                            <li><strong>Education:</strong> Each tasting includes learning about distilling, aging, and tasting techniques</li>
+                            <li><strong>Community:</strong> Building lasting friendships through shared appreciation of fine spirits</li>
+                            <li><strong>Exclusivity:</strong> Maintaining our intimate group size for better experiences</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <ul>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-    </ul>
-    <ol>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-    </ol>
+    <!-- Upcoming Tasting Section -->
+    <section id="upcoming" class="upcoming-tasting">
+        <div class="container">
+            <div class="section-header">
+                <h2>Next Tasting Preview</h2>
+                <p>Get ready for our upcoming quarterly tasting event</p>
+            </div>
+            <div class="tasting-preview">
+                <div class="tasting-info">
+                    <div class="tasting-date">
+                        <span class="month">March</span>
+                        <span class="day">15</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="tasting-details">
+                        <h3>Spring Rye Exploration</h3>
+                        <p class="tasting-time">7:00 PM - 9:30 PM</p>
+                        <p class="tasting-location">The Backyard Patio</p>
+                        <p class="tasting-description">Join us for an evening exploring the bold and spicy world of rye whiskey. We'll taste through a carefully curated selection of premium ryes, from classic American expressions to innovative craft distillery offerings.</p>
+                    </div>
+                </div>
+                <div class="whiskey-lineup">
+                    <h4>Featured Whiskeys</h4>
+                    <div class="whiskey-list">
+                        <div class="whiskey-item">
+                            <div class="whiskey-image">
+                                <img src="images/RyeBanner2024.png" alt="Rye Whiskey" class="whiskey-bottle-img">
+                            </div>
+                            <div class="whiskey-info">
+                                <h5>WhistlePig 10 Year</h5>
+                                <p>Vermont Rye - Rich and complex with notes of vanilla and oak</p>
+                            </div>
+                        </div>
+                        <div class="whiskey-item">
+                            <div class="whiskey-image">
+                                <img src="images/RyeBanner2024.png" alt="Rye Whiskey" class="whiskey-bottle-img">
+                            </div>
+                            <div class="whiskey-info">
+                                <h5>High West Double Rye</h5>
+                                <p>Utah Rye - Spicy and bold with a smooth finish</p>
+                            </div>
+                        </div>
+                        <div class="whiskey-item">
+                            <div class="whiskey-image">
+                                <img src="images/RyeBanner2024.png" alt="Rye Whiskey" class="whiskey-bottle-img">
+                            </div>
+                            <div class="whiskey-info">
+                                <h5>Rittenhouse Bottled-in-Bond</h5>
+                                <p>Pennsylvania Rye - Classic and affordable with great character</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tasting-actions">
+                <button class="btn btn-primary">RSVP for Tasting</button>
+                <button class="btn btn-outline">View Full Details</button>
+            </div>
+        </div>
+    </section>
 
-   <h1>Heading One</h1>
-   <h2>Heading Two</h2>
-   <h3>Heading Three</h3>
-   <h4>Heading Four</h4>
-   <h5>Heading Five</h5>
-   
+    <!-- Past Tastings Recap Section -->
+    <section id="recaps" class="past-tastings">
+        <div class="container">
+            <div class="section-header">
+                <h2>Past Tasting Recaps</h2>
+                <p>Relive our previous quarterly tastings and discover what we've explored</p>
+            </div>
+            <div class="tastings-grid">
+                <div class="tasting-recap-card">
+                    <div class="recap-date">
+                        <span class="month">Dec</span>
+                        <span class="day">15</span>
+                        <span class="year">2023</span>
+                    </div>
+                    <div class="recap-content">
+                        <h3>Holiday Single Malt Showcase</h3>
+                        <p class="recap-attendees">12 Members Attended</p>
+                        <p class="recap-description">A festive evening featuring premium single malt scotches perfect for the holiday season. We explored the rich, warming flavors that make winter tastings so special.</p>
+                        <div class="recap-whiskeys">
+                            <h5>Featured Whiskeys:</h5>
+                            <ul>
+                                <li>Macallan 18 Year Sherry Oak</li>
+                                <li>Lagavulin 16 Year</li>
+                                <li>Glenfiddich 21 Year Reserva Rum Cask</li>
+                            </ul>
+                        </div>
+                        <div class="recap-highlights">
+                            <h5>Highlights:</h5>
+                            <p>Member favorite was the Macallan 18, with its rich dried fruit and spice notes. The Lagavulin brought the perfect smoky contrast for the winter evening.</p>
+                        </div>
+                        <button class="btn btn-outline">View Full Recap</button>
+                    </div>
+                </div>
+                <div class="tasting-recap-card">
+                    <div class="recap-date">
+                        <span class="month">Sep</span>
+                        <span class="day">20</span>
+                        <span class="year">2023</span>
+                    </div>
+                    <div class="recap-content">
+                        <h3>Japanese Whisky Discovery</h3>
+                        <p class="recap-attendees">15 Members Attended</p>
+                        <p class="recap-description">An exploration of the delicate and refined world of Japanese whisky, featuring both classic expressions and limited releases.</p>
+                        <div class="recap-whiskeys">
+                            <h5>Featured Whiskeys:</h5>
+                            <ul>
+                                <li>Yamazaki 12 Year</li>
+                                <li>Hibiki Harmony</li>
+                                <li>Nikka Coffey Malt</li>
+                            </ul>
+                        </div>
+                        <div class="recap-highlights">
+                            <h5>Highlights:</h5>
+                            <p>The Hibiki Harmony was a standout with its complex blend of fruit and floral notes. Members appreciated the craftsmanship and attention to detail in Japanese whisky making.</p>
+                        </div>
+                        <button class="btn btn-outline">View Full Recap</button>
+                    </div>
+                </div>
+                <div class="tasting-recap-card">
+                    <div class="recap-date">
+                        <span class="month">Jun</span>
+                        <span class="day">10</span>
+                        <span class="year">2023</span>
+                    </div>
+                    <div class="recap-content">
+                        <h3>Summer Bourbon Bonanza</h3>
+                        <p class="recap-attendees">18 Members Attended</p>
+                        <p class="recap-description">A celebration of American bourbon with a focus on different mash bills and aging techniques. Perfect for a warm summer evening.</p>
+                        <div class="recap-whiskeys">
+                            <h5>Featured Whiskeys:</h5>
+                            <ul>
+                                <li>Pappy Van Winkle 15 Year</li>
+                                <li>Blanton's Single Barrel</li>
+                                <li>Four Roses Single Barrel</li>
+                            </ul>
+                        </div>
+                        <div class="recap-highlights">
+                            <h5>Highlights:</h5>
+                            <p>The Pappy Van Winkle was the clear winner, though the Four Roses offered incredible value. Great discussion about the impact of different barrel char levels.</p>
+                        </div>
+                        <button class="btn btn-outline">View Full Recap</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>email</th>
-            <th>Age</th>
-        </tr>
-    </thead>
-    <td>
-        <tr>
-            <td>Craig Teel</td>
-            <td>cteel@fugro.com</td>
-            <td>60</td>
-        </tr>
-    </td>
-   </table>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact the Club</h2>
+                <p>Questions about our private tastings or membership inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Meeting Location</h4>
+                            <p>The Backyard Patio<br>Private Residence</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h4>Meeting Schedule</h4>
+                            <p>Quarterly Tastings<br>March, June, September, December</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>club@backyardwhiskeyclub.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="membership-info">
+                    <h3>Membership Information</h3>
+                    <p>Our private club maintains a small, intimate membership of 25 dedicated whiskey enthusiasts. Membership is by invitation only, and we focus on creating meaningful connections through shared appreciation of fine spirits.</p>
+                    <div class="membership-benefits">
+                        <h4>Member Benefits:</h4>
+                        <ul>
+                            <li>Quarterly private tastings with premium whiskeys</li>
+                            <li>Educational sessions on distilling and tasting techniques</li>
+                            <li>Access to exclusive whiskey purchases and recommendations</li>
+                            <li>Invitation to special events and distillery visits</li>
+                            <li>Private online community for discussions and reviews</li>
+                        </ul>
+                    </div>
+                    <div class="waitlist-notice">
+                        <p><strong>Note:</strong> We currently have a waitlist for new members. If you're interested in joining our community, please contact us to learn more about our membership process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <br><hr><br>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-whiskey-glass"></i>
+                        <span>Backyard Whiskey Club</span>
+                    </div>
+                    <p>Connecting whiskey enthusiasts through exceptional spirits and memorable quarterly tastings.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#upcoming">Next Tasting</a></li>
+                        <li><a href="#recaps">Past Tastings</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Backyard Whiskey Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-   <form action="process.php" method="post">
-    <div>
-        <label>First Name</label>
-        <input type="text" name="firstName" placeholder="Enter First Name">
-    </div>
-    <br>
-<div>
-    <label>Last Name</label>
-    <input type="text" name="lastName">
-</div>
-    <br>
-    <div>
-        <label>Email</label>
-        <input type="email" name="email">
-    </div>
-    <br>
-
-   </form>
+    <script src="app.js"></script>
 </body>
 </html>
